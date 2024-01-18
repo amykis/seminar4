@@ -38,13 +38,13 @@ int max = 999;
 
 int[] array = CreateRandomArrayThreeDigitNumbers(min, max);
 
+// Вывода массива в консоль
+
+    for ( int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+
+    Console.WriteLine();
+
 FindCountOfEvenNumbers(array);
-
-// // Проверка своего кода Для вывода массива в консоль убрать "//" в следующих 5 строках
-
-//     for ( int i = 0; i < array.Length; i++)
-//     {
-//         Console.Write($"{array[i]} ");
-//     }git 
-
-//     Console.WriteLine();
