@@ -1,0 +1,14 @@
+D:\Курс GeekBrains\Git_education_C#\Seminar4\dz3WebsiteGeekBrains\bin\Debug\net7.0\dz3WebsiteGeekBrains.exe
+D:\Курс GeekBrains\Git_education_C#\Seminar4\dz3WebsiteGeekBrains\bin\Debug\net7.0\dz3WebsiteGeekBrains.deps.json
+D:\Курс GeekBrains\Git_education_C#\Seminar4\dz3WebsiteGeekBrains\bin\Debug\net7.0\dz3WebsiteGeekBrains.runtimeconfig.json
+D:\Курс GeekBrains\Git_education_C#\Seminar4\dz3WebsiteGeekBrains\bin\Debug\net7.0\dz3WebsiteGeekBrains.dll
+D:\Курс GeekBrains\Git_education_C#\Seminar4\dz3WebsiteGeekBrains\bin\Debug\net7.0\dz3WebsiteGeekBrains.pdb
+D:\Курс GeekBrains\Git_education_C#\Seminar4\dz3WebsiteGeekBrains\obj\Debug\net7.0\dz3WebsiteGeekBrains.GeneratedMSBuildEditorConfig.editorconfig
+D:\Курс GeekBrains\Git_education_C#\Seminar4\dz3WebsiteGeekBrains\obj\Debug\net7.0\dz3WebsiteGeekBrains.AssemblyInfoInputs.cache
+D:\Курс GeekBrains\Git_education_C#\Seminar4\dz3WebsiteGeekBrains\obj\Debug\net7.0\dz3WebsiteGeekBrains.AssemblyInfo.cs
+D:\Курс GeekBrains\Git_education_C#\Seminar4\dz3WebsiteGeekBrains\obj\Debug\net7.0\dz3WebsiteGeekBrains.csproj.CoreCompileInputs.cache
+D:\Курс GeekBrains\Git_education_C#\Seminar4\dz3WebsiteGeekBrains\obj\Debug\net7.0\dz3WebsiteGeekBrains.dll
+D:\Курс GeekBrains\Git_education_C#\Seminar4\dz3WebsiteGeekBrains\obj\Debug\net7.0\refint\dz3WebsiteGeekBrains.dll
+D:\Курс GeekBrains\Git_education_C#\Seminar4\dz3WebsiteGeekBrains\obj\Debug\net7.0\dz3WebsiteGeekBrains.pdb
+D:\Курс GeekBrains\Git_education_C#\Seminar4\dz3WebsiteGeekBrains\obj\Debug\net7.0\dz3WebsiteGeekBrains.genruntimeconfig.cache
+D:\Курс GeekBrains\Git_education_C#\Seminar4\dz3WebsiteGeekBrains\obj\Debug\net7.0\ref\dz3WebsiteGeekBrains.dll
