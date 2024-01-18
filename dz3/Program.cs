@@ -38,20 +38,20 @@ int max = Convert.ToInt32(Console.ReadLine());
 
 int[] array = CreateRandomArray(size, min, max);
 
-// Проверка своего кода для вывода массива в консоль убрать "//" в следующих 5 строках
+// Вывода оригинального массива в консоль
 
-// for ( int i = 0; i < array.Length; i++)
-// {
-// Console.Write($"{array[i]} ");
-//     }
+for ( int i = 0; i < array.Length; i++)
+{
+Console.Write($"{array[i]} ");
+    }
 
-// Console.WriteLine();
+Console.WriteLine();
 
 int [] reverseArray = ReverseArray(array);
 
-// Проверка своего кода для вывода перевернутого массива в консоль убрать "//" в следующих 5 строках
+// ПВывода перевернутого массива в консоль
 
-// for ( int i = 0; i < array.Length; i++)
-// {
-// Console.Write($"{array[i]} ");
-// }
+for ( int i = 0; i < array.Length; i++)
+{
+Console.Write($"{array[i]} ");
+}
