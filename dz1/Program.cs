@@ -26,11 +26,22 @@ int[] FillArray(int size, int number)
     return array;
 }
 
-// Функция определяет четное число или нечетное
+// Функция суммы элементов массива
 
-bool GetSumOfLastTwoElement(int[] array, int size)
+int GetSumOfElement(int[] array)
 {
-    int sum = array[size - 1] + array[size - 2];
+    int sum = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        sum = sum + array[i];   
+    }
+    return sum;
+}
+
+// Функция возврата bool значения, суммы элементов массива на четность или нечетнность
+
+bool GetSumOfElementEvenOrOdd(int sum)
+{
     if (sum % 2 == 0)
     {
         return true;
@@ -41,42 +52,50 @@ bool GetSumOfLastTwoElement(int[] array, int size)
     } 
 }
 
-bool sum = false;
-string word = "";
+
+bool sumEvenOrOdd = false;
  
-while (sum == false || word == "q")
+while (sumEvenOrOdd == false )
 {
     Console.Clear();
 
-    // Ввод числа и отправка его в функцию GetArrayLength()
+    // Ввод числа и определение его длины с помощью функции GetArrayLength()
 
-    Console.WriteLine("Введите число: ");
-    int number = Convert.ToInt32(Console.ReadLine());
-    word = Convert.ToString(number);
-    int size = GetArrayLength(number);
+    Console.WriteLine("Введите число: ");    
+    string? text = Console.ReadLine();
+    if (text != "q"){
+        int number = Convert.ToInt32(text);
+        int size = GetArrayLength(number);
 
-    // Создание массива из введенного числа, вызов функции FillArray()
+        // Создаем массив из введенного числа, вызов функции FillArray()
 
-    int[] array = FillArray(size, number);
+        int[] array = FillArray(size, number);
 
-    // Для проверки длины массива убрать "//" в следующей строке
+        // Получаем сумму элементов массива
 
-    // Console.WriteLine(GetArrayLength(number));
+        int sum = GetSumOfElement(array);
 
-    // Для вывода массива в консоль убрать "//" в следующих 5 строках
+        // Получаем bool значение суммы элементов массива на четность или нечетнность
 
-    // for ( int i = 0; i < array.Length; i++)
-    // {
-    //     Console.Write($"{array[i]} ");
-    // }
+        sumEvenOrOdd = GetSumOfElementEvenOrOdd(sum);
 
-    // Console.WriteLine();
+        // Для проверки длины массива убрать "//" в следующей строке
 
-    // Проверка bool
+        // Console.WriteLine(GetArrayLength(number));
 
-    // Console.WriteLine(GetSumOfLastTwoElement(array, size));
+        // Для вывода массива в консоль убрать "//" в следующих 5 строках
 
-    sum = GetSumOfLastTwoElement(array, size);
+        // for ( int i = 0; i < array.Length; i++)
+        // {
+        //     Console.Write($"{array[i]} ");
+        // }
+
+        // Console.WriteLine();
+
+        // Console.WriteLine(GetSumOfLastTwoElement(array, size));
+    }else {
+        break;
+    }    
 }
 
 Console.WriteLine("[STOP]");
